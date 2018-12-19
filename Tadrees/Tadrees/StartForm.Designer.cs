@@ -230,6 +230,7 @@
             this.SignUpTextBoxFirstName.Name = "SignUpTextBoxFirstName";
             this.SignUpTextBoxFirstName.Size = new System.Drawing.Size(194, 22);
             this.SignUpTextBoxFirstName.TabIndex = 1;
+            this.SignUpTextBoxFirstName.TextChanged += new System.EventHandler(this.SignUpTextBoxFirstName_TextChanged);
             // 
             // SignUpStudentButtonSignUp
             // 

@@ -33,6 +33,7 @@ namespace Tadrees
 
         }
 
+
         private void LoginButtonLogin_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -45,7 +46,19 @@ namespace Tadrees
         {
             if(SignUpTextBoxFirstName.Text != "" && SignUpTextBoxLastName.Text != "" && SignUpTextBoxPassword.Text != "" && SignUpTextBoxEmail.Text != "")
             {
-                if(SignupStudentComboBox.Text == "Student")
+                if (SignUpTextBoxPassword.Text.Length < 6)
+                {
+                    MessageBox.Show("Passwords must be at least 6 characters long.");
+                }
+                if (SignUpTextBoxFirstName.Text.Any(char.IsDigit))
+                {
+                    MessageBox.Show("First name does not accept digit.");
+                }
+                if (SignUpTextBoxLastName.Text.Any(char.IsDigit))
+                {
+                    MessageBox.Show("Last name does not accept digit.");
+                }
+                if (SignupStudentComboBox.Text == "Student")
                 {
                     SqlCommand command = new SqlCommand("Insert Into Student(FirstName, LastName,Email,Password) values('"+
                         SignUpTextBoxFirstName.Text + "\',\'" + SignUpTextBoxLastName.Text +"\',\'"+ SignUpTextBoxEmail.Text +"\',\'"+ SignUpTextBoxPassword.Text
@@ -54,19 +67,6 @@ namespace Tadrees
                     command.ExecuteNonQuery();
                 }
             }
-            if (SignUpTextBoxPassword.Text.Length < 6)
-            {
-                MessageBox.Show("Passwords must be at least 6 characters long.");
-            }
-            if(SignUpTextBoxFirstName.Text.Any(char.IsDigit))
-            {
-                MessageBox.Show("First name does not accept digit.");
-            }
-            if (SignUpTextBoxLastName.Text.Any(char.IsDigit))
-            {
-                MessageBox.Show("Last name does not accept digit.");
-            }
-
             else
             {
                 MessageBox.Show("Please Enter All The Fields", "Error Signing Up");
@@ -76,6 +76,11 @@ namespace Tadrees
         private void SignUpTextBoxPassword_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void SignUpTextBoxFirstName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
