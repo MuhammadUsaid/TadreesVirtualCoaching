@@ -33,8 +33,8 @@
             this.StudentSearchClassPictureBox = new System.Windows.Forms.PictureBox();
             this.SignUp = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -112,6 +112,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Qualification";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(248, 246);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
@@ -126,15 +135,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(308, 219);
             this.panel1.TabIndex = 16;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(248, 246);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -280,6 +280,7 @@
             this.SignUpTextBoxPassword.PasswordChar = '*';
             this.SignUpTextBoxPassword.Size = new System.Drawing.Size(194, 22);
             this.SignUpTextBoxPassword.TabIndex = 4;
+            this.SignUpTextBoxPassword.TextChanged += new System.EventHandler(this.SignUpTextBoxPassword_TextChanged);
             // 
             // SignupStudentLabelLastName
             // 

@@ -14,3 +14,19 @@ E:\Semester3\Database Management Systems\Tadrees Virtual Coaching\New\TadreesVir
 E:\Semester3\Database Management Systems\Tadrees Virtual Coaching\New\TadreesVirtualCoaching-Usaid\Tadrees\Tadrees\obj\Debug\Tadrees.StudentForm.resources
 E:\Semester3\Database Management Systems\Tadrees Virtual Coaching\New\TadreesVirtualCoaching-Usaid\Tadrees\Tadrees\obj\Debug\Tadrees.TakeAttendance.resources
 E:\Semester3\Database Management Systems\Tadrees Virtual Coaching\New\TadreesVirtualCoaching-Usaid\Tadrees\Tadrees\obj\Debug\Tadrees.TeacherForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\bin\Debug\Tadrees.exe.config
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\bin\Debug\Tadrees.exe
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\bin\Debug\Tadrees.pdb
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.csprojAssemblyReference.cache
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.ViewAttendance.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.StartForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.Properties.Resources.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.StudentEditForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.StudentForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.TakeAttendance.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.TeacherEditForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.TeacherForm.resources
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.csproj.GenerateResource.cache
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.csproj.CoreCompileInputs.cache
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.exe
+E:\Semester3\Database Management Systems\Final Project\TadreesVirtualCoaching\Tadrees\Tadrees\obj\Debug\Tadrees.pdb

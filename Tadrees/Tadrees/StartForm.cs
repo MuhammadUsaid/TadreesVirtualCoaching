@@ -54,10 +54,28 @@ namespace Tadrees
                     command.ExecuteNonQuery();
                 }
             }
+            if (SignUpTextBoxPassword.Text.Length < 6)
+            {
+                MessageBox.Show("Passwords must be at least 6 characters long.");
+            }
+            if(SignUpTextBoxFirstName.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("First name does not accept digit.");
+            }
+            if (SignUpTextBoxLastName.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("Last name does not accept digit.");
+            }
+
             else
             {
                 MessageBox.Show("Please Enter All The Fields", "Error Signing Up");
             }
+        }
+
+        private void SignUpTextBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
