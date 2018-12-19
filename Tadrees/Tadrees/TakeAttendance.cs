@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Tadrees
 {
-    public partial class Form1 : Form
+    public partial class TakeAttendance : Form
     {
-        public Form1()
+        SqlConnection connection;
+        public TakeAttendance(SqlConnection con)
         {
             InitializeComponent();
+            connection = con;
         }
     }
 }
