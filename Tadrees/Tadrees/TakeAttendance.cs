@@ -19,5 +19,10 @@ namespace Tadrees
             InitializeComponent();
             connection = con;
         }
+
+        private void TakeAttendancedateTimePickerDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
