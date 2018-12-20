@@ -89,6 +89,7 @@
             this.studentLabelEditProfile.TabIndex = 23;
             this.studentLabelEditProfile.Text = "Edit Profile";
             this.studentLabelEditProfile.UseVisualStyleBackColor = true;
+            this.studentLabelEditProfile.Click += new System.EventHandler(this.studentLabelEditProfile_Click);
             // 
             // studentPictureBox
             // 

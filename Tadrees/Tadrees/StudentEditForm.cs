@@ -14,15 +14,22 @@ namespace Tadrees
     public partial class StudentEditForm : Form
     {
         SqlConnection connection;
-        public StudentEditForm(SqlConnection con)
+        string userID;
+        public StudentEditForm(SqlConnection con, string id)
         {
             InitializeComponent();
             connection = con;
+            userID = id;
         }
 
         private void StudentEditForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -31,13 +31,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SignupStudentLabelFirstName = new System.Windows.Forms.Label();
             this.SignUpStudentTextBoxFirstName = new System.Windows.Forms.TextBox();
-            this.SignUpStudentButtonSignUp = new System.Windows.Forms.Button();
             this.SignUpStudentTextBoxLastName = new System.Windows.Forms.TextBox();
             this.SignupStudentLabelPassword = new System.Windows.Forms.Label();
             this.SignUpStudentTextBoxEmail = new System.Windows.Forms.TextBox();
             this.SignupStudentLabelEmail = new System.Windows.Forms.Label();
             this.SignUpStudentTextBoxPassword = new System.Windows.Forms.TextBox();
             this.SignupStudentLabelLastName = new System.Windows.Forms.Label();
+            this.SignUpStudentButtonSignUp = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -47,6 +47,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Back = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -84,16 +85,6 @@
             this.SignUpStudentTextBoxFirstName.Name = "SignUpStudentTextBoxFirstName";
             this.SignUpStudentTextBoxFirstName.Size = new System.Drawing.Size(194, 22);
             this.SignUpStudentTextBoxFirstName.TabIndex = 1;
-            // 
-            // SignUpStudentButtonSignUp
-            // 
-            this.SignUpStudentButtonSignUp.Location = new System.Drawing.Point(664, 332);
-            this.SignUpStudentButtonSignUp.Name = "SignUpStudentButtonSignUp";
-            this.SignUpStudentButtonSignUp.Size = new System.Drawing.Size(75, 33);
-            this.SignUpStudentButtonSignUp.TabIndex = 9;
-            this.SignUpStudentButtonSignUp.Text = "Confirm";
-            this.SignUpStudentButtonSignUp.UseVisualStyleBackColor = true;
-            this.SignUpStudentButtonSignUp.Click += new System.EventHandler(this.SignUpStudentButtonSignUp_Click);
             // 
             // SignUpStudentTextBoxLastName
             // 
@@ -143,6 +134,16 @@
             this.SignupStudentLabelLastName.Size = new System.Drawing.Size(80, 17);
             this.SignupStudentLabelLastName.TabIndex = 3;
             this.SignupStudentLabelLastName.Text = "Last Name:";
+            // 
+            // SignUpStudentButtonSignUp
+            // 
+            this.SignUpStudentButtonSignUp.Location = new System.Drawing.Point(567, 332);
+            this.SignUpStudentButtonSignUp.Name = "SignUpStudentButtonSignUp";
+            this.SignUpStudentButtonSignUp.Size = new System.Drawing.Size(75, 33);
+            this.SignUpStudentButtonSignUp.TabIndex = 9;
+            this.SignUpStudentButtonSignUp.Text = "Confirm";
+            this.SignUpStudentButtonSignUp.UseVisualStyleBackColor = true;
+            this.SignUpStudentButtonSignUp.Click += new System.EventHandler(this.SignUpStudentButtonSignUp_Click);
             // 
             // groupBox2
             // 
@@ -227,16 +228,28 @@
             this.textBox1.Size = new System.Drawing.Size(176, 22);
             this.textBox1.TabIndex = 3;
             // 
+            // Back
+            // 
+            this.Back.Location = new System.Drawing.Point(668, 332);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(75, 33);
+            this.Back.TabIndex = 17;
+            this.Back.Text = "Back";
+            this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
             // TeacherEditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Back);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.SignUpStudentButtonSignUp);
             this.Name = "TeacherEditForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.TeacherEditForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -267,5 +280,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Back;
     }
 }

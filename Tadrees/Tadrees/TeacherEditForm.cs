@@ -14,10 +14,12 @@ namespace Tadrees
     public partial class TeacherEditForm : Form
     {
         SqlConnection connection;
-        public TeacherEditForm(SqlConnection con)
+        string userID;
+        public TeacherEditForm(SqlConnection con, string id)
         {
             InitializeComponent();
             connection = con;
+            userID = id;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -28,6 +30,16 @@ namespace Tadrees
         private void SignUpStudentButtonSignUp_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void TeacherEditForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

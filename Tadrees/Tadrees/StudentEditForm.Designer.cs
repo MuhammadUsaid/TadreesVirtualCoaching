@@ -38,11 +38,13 @@
             this.SignupStudentLabelEmail = new System.Windows.Forms.Label();
             this.SignUpStudentTextBoxPassword = new System.Windows.Forms.TextBox();
             this.SignupStudentLabelLastName = new System.Windows.Forms.Label();
+            this.Back = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.Back);
             this.groupBox1.Controls.Add(this.SignupStudentLabelFirstName);
             this.groupBox1.Controls.Add(this.SignUpStudentTextBoxFirstName);
             this.groupBox1.Controls.Add(this.SignUpStudentButtonSignUp);
@@ -77,7 +79,7 @@
             // 
             // SignUpStudentButtonSignUp
             // 
-            this.SignUpStudentButtonSignUp.Location = new System.Drawing.Point(286, 209);
+            this.SignUpStudentButtonSignUp.Location = new System.Drawing.Point(167, 210);
             this.SignUpStudentButtonSignUp.Name = "SignUpStudentButtonSignUp";
             this.SignUpStudentButtonSignUp.Size = new System.Drawing.Size(75, 33);
             this.SignUpStudentButtonSignUp.TabIndex = 9;
@@ -133,6 +135,16 @@
             this.SignupStudentLabelLastName.TabIndex = 3;
             this.SignupStudentLabelLastName.Text = "Last Name:";
             // 
+            // Back
+            // 
+            this.Back.Location = new System.Drawing.Point(272, 210);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(75, 33);
+            this.Back.TabIndex = 10;
+            this.Back.Text = "Back";
+            this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
             // StudentEditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -160,5 +172,6 @@
         private System.Windows.Forms.Label SignupStudentLabelEmail;
         private System.Windows.Forms.TextBox SignUpStudentTextBoxPassword;
         private System.Windows.Forms.Label SignupStudentLabelLastName;
+        private System.Windows.Forms.Button Back;
     }
 }

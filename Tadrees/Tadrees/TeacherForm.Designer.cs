@@ -117,6 +117,7 @@
             this.teacherLabelEditProfile.TabIndex = 30;
             this.teacherLabelEditProfile.Text = "Edit Profile";
             this.teacherLabelEditProfile.UseVisualStyleBackColor = true;
+            this.teacherLabelEditProfile.Click += new System.EventHandler(this.teacherLabelEditProfile_Click);
             // 
             // teacherPictureBox
             // 

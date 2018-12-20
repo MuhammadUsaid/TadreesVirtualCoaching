@@ -100,5 +100,13 @@ namespace Tadrees
             }
             rd.Close();
         }
+
+        private void studentLabelEditProfile_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form form = new StudentEditForm(connection, userID);
+            form.Show();
+            form.FormClosed += (s, args) => this.Show();
+        }
     }
 }
